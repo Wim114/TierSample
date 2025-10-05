@@ -1,0 +1,83 @@
+<!doctype html><html lang="de"><head>  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Kontakt & Öffnungszeiten | Tierambulanz Wien</title>
+  <meta name="description" content="Kontakt, Öffnungszeiten und Termin-Anfrage."/>
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml"/>
+  <link rel="canonical" href="/de/contact.html"/>
+  <link rel="alternate" href="/en/contact.html" hreflang="en"/>
+  <link rel="alternate" href="/de/kontakt.html" hreflang="de"/>
+  <link rel="alternate" href="/en/contact.html" hreflang="x-default"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Kontakt & Öffnungszeiten | Tierambulanz Wien"/>
+  <meta property="og:description" content="Kontakt, Öffnungszeiten und Termin-Anfrage."/>
+  <meta property="og:image" content="/assets/og.jpg"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css"/>
+  <script defer src="/js/app.js"></script></head><body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="/de/">Tierambulanz Wien</a>
+      <nav class="menu">
+        <a href="/de/services.html">Leistungen</a>
+        <a href="/de/team.html">Team</a>
+        <a href="/de/pricing.html">Preise</a>
+        <a href="/de/contact.html" class="btn btn--ghost">Kontakt</a>
+        <a href="/de/contact.html#book" class="btn">Termin buchen</a>
+        <span class="lang">
+          <a href="/en/" class="">EN</a>
+          <a href="/de/" class="active">DE</a>
+        </span>
+      </nav>
+    </div>
+  </header>
+<main class="section"><div class="container contact__grid">
+  <div data-animate="rise">
+    <h1>Kontakt & Öffnungszeiten</h1>
+    <p>Landstraße, 1030 Wien</p>
+    <p>Mo–Fr 08:00–19:00, Sa 09:00–14:00</p>
+    <p>Tel: <a href="tel:+4312345678">+43 1 234 56 78</a> • Email: <a href="mailto:hello@tierambulanz-vienna.at">hello@tierambulanz-vienna.at</a></p>
+    <a class="btn" href="mailto:hello@tierambulanz-vienna.at?subject=Appointment%20request">Termin anfragen</a>
+  </div>
+  <div class="map" data-animate="rise" aria-label="Map">
+    <iframe class="map__iframe" src="https://www.google.com/maps?q=Landstraße%201030%20Wien&output=embed" loading="lazy"></iframe>
+  </div>
+</div>
+
+<section class="section alt" id="book">
+  <div class="container">
+    <h2 data-animate="rise">Termin buchen</h2>
+    <form data-animate="rise" action="https://formspree.io/f/placeholder" method="POST">
+      <div class="grid" style="grid-template-columns:1fr 1fr;">
+        <label>Full name<input required type="text" name="name" placeholder="Jane Doe"/></label>
+        <label>Email<input required type="email" name="email" placeholder="you@example.com"/></label>
+        <label>Phone<input type="tel" name="phone" placeholder="+43 ..."/></label>
+        <label>Pet name<input type="text" name="pet" placeholder="Luna"/></label>
+      </div>
+      <label>Message<textarea name="message" rows="5" placeholder="How can we help?"></textarea></label>
+      <button class="btn" type="submit">Termin anfragen</button>
+      <p class="note">Dies ist ein Platzhalter-Formular. Endpoint bitte ersetzen.</p>
+    </form>
+    <p style="display:none" id="thanks">Danke! Wir melden uns in Kürze.</p>
+  </div>
+</section>
+</main>
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div>
+        <strong>Tierambulanz Vienna</strong>
+        <p>ZVR, UID und rechtliche Angaben.</p>
+      </div>
+      <nav class="footer__menu">
+        <a href="/de/services.html">Leistungen</a>
+        <a href="/de/team.html">Team</a>
+        <a href="/de/pricing.html">Preise</a>
+        <a href="/de/contact.html">Kontakt</a>
+        <a href="/de/impressum.html">Impressum</a>
+        <a href="/de/datenschutz.html">Datenschutz</a>
+      </nav>
+    </div>
+    <p class="tiny">© 2025 Tierambulanz Wien</p>
+  </footer>
+</body></html>

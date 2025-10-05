@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# Update the sitemap URL after you have a domain:
+Sitemap: https://example.com/sitemap.xml
